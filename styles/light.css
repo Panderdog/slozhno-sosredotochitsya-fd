@@ -11,7 +11,7 @@
   background-attachment: fixed;
   font-family: var(--main-font-family);
   color: #353430;
-  font-size: var(--main-font-size);
+
   --title-color: #ffc2e6;
   --accent-color: #ff8dcb;
   --text-color: #353430;
@@ -21,17 +21,13 @@
   --section-text-color: var(--main-text-color);
   --button-color: var(--text-color);
   --bg-color: #fff1f7;
-  --nav-color-hover: #32312D66;
+  --nav-color-hover: #32312d66;
   --nav-color: #353430;
-  --nav-color-focus: #32312D66;
+  --nav-color-focus: #32312d66;
   --link-focus: #353430;
   --color-button-active: #353430;
   --color-decor: #353430;
-
-}
-
-.decor-text {
-  display: none;
+  --main-font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
 
 @media (prefers-color-scheme: light) {
@@ -42,7 +38,7 @@
     background-attachment: fixed;
     font-family: var(--main-font-family);
     color: #353430;
-    font-size: var(--main-font-size);
+
     --title-color: #ffc2e6;
     --accent-color: #ff8dcb;
     --text-color: #353430;
@@ -52,15 +48,21 @@
     --section-text-color: var(--main-text-color);
     --button-color: var(--text-color);
     --bg-color: #fff1f7;
-    --nav-color-hover: #32312D66;
+    --nav-color-hover: #32312d66;
     --nav-color: #353430;
-     --nav-color-focus: #32312D66;
-      --link-focus: #353430;
-      --color-button-active: #353430;
-      --color-decor: #353430;
+    --nav-color-focus: #32312d66;
+    --link-focus: #353430;
+    --color-button-active: #353430;
+    --color-decor: #353430;
+    --main-font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
+  .decor-text {
+    display: none;
+  }
+}
 
-   .decor-text {
+@media (width>1px) {
+  .decor-text {
     display: none;
   }
 }

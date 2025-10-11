@@ -31,12 +31,4 @@
    --color-decor: #FF0070;
 }
 
-.page.theme_dark .rec {
-  display: block;
-}
 
-@media (prefers-color-scheme: dark) {
-  .rec {
-    display: block;
-  }
-}
