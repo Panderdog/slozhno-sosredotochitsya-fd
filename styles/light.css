@@ -15,7 +15,7 @@
   --title-color: #ffc2e6;
   --accent-color: #ff8dcb;
   --text-color: #353430;
-  --title-shadow-color: #ff0070;
+  --title-shadow-color: #ff8dcb;
   --main-text-color: #353430;
   --decorated-color: #353430;
   --section-text-color: var(--main-text-color);
@@ -28,7 +28,10 @@
   --color-button-active: #353430;
   --color-decor: #353430;
   --main-font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --display: none;
 }
+
+
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -42,7 +45,7 @@
     --title-color: #ffc2e6;
     --accent-color: #ff8dcb;
     --text-color: #353430;
-    --title-shadow-color: #ff0070;
+    --title-shadow-color: #ff8dcb;
     --main-text-color: #353430;
     --decorated-color: #353430;
     --section-text-color: var(--main-text-color);
@@ -55,17 +58,11 @@
     --color-button-active: #353430;
     --color-decor: #353430;
     --main-font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  }
-  .decor-text {
-    display: none;
+      --display: none;
   }
 }
 
-@media (width>1px) {
-  .decor-text {
-    display: none;
-  }
-}
+
 
 @media (width >= 1024px) {
   .title {

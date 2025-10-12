@@ -44,6 +44,7 @@
 }
 
 .decor-text {
+  display: var(--display);
   position: absolute;
   justify-self: end;
   font-size: var(--main-font-size);
@@ -107,12 +108,7 @@
 }
 
 .header__theme-menu-button_type_dark {
-  padding-top: 1px;
-  padding-bottom: 5px;
-  padding-right: 12px;
-  padding-left: 13px;
-  margin-left: -8px;
-  margin-top: -1px;
+
 }
 
 .header__title {
@@ -399,15 +395,16 @@ h4.section__title {
 }
 
 @media (min-width: 1024px) {
+
   .header__theme-menu {
     justify-self: center;
     margin-top: 257px;
     margin-bottom: -95px;
   }
   .header__theme-menu-list {
-    margin-top: -237px;
-    margin-left: 29px;
-    flex-direction: row;
+        margin-top: -236px;
+        margin-left: 19px;
+        flex-direction: row;
   }
 
   .header__title {
