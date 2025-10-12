@@ -13,11 +13,11 @@
   --main-font-size: 18px;
   --main-font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-size-standart: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  --nav-color-hover: #FF007066;
+  --nav-color-hover: #ff007066;
   --nav-color: #ff0070;
-  --nav-color-focus: #FF0070;
-   --link-focus: #F1B2CE;
-   --color-button-active: #FF0070;
-   --color-decor: #FF0070;
-   --display: block;
+  --nav-color-focus: #ff0070;
+  --link-focus: #f1b2ce;
+  --color-button-active: #ff0070;
+  --color-decor: #ff0070;
+  --display: block;
 }
