@@ -1,7 +1,4 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   background-image: var(--page-bg);
   background-position: center;
   background-size: cover;
@@ -105,10 +102,6 @@
   outline: 1px solid var(--color-button-active);
   outline-offset: 3px;
   pointer-events: none;
-}
-
-.header__theme-menu-button_type_dark {
-
 }
 
 .header__title {
@@ -395,16 +388,15 @@ h4.section__title {
 }
 
 @media (min-width: 1024px) {
-
   .header__theme-menu {
     justify-self: center;
     margin-top: 257px;
     margin-bottom: -95px;
   }
   .header__theme-menu-list {
-        margin-top: -236px;
-        margin-left: 19px;
-        flex-direction: row;
+    margin-top: -236px;
+    margin-left: 19px;
+    flex-direction: row;
   }
 
   .header__title {
