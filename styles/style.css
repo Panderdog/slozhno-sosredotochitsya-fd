@@ -216,19 +216,11 @@ h4.section__title {
   display: grid;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
 }
 
 .footer__title {
-  margin-top: 19px;
-  margin-left: 4px;
-}
-
-.footer.decorated-zone::before {
-  top: 19px;
-}
-
-.footer.decorated-zone::after {
-  bottom: 1px;
+  margin-left: 1px;
 }
 
 @media (min-width: 768px) {
@@ -304,7 +296,7 @@ h4.section__title {
     margin-inline-end: 1px;
   }
 
-  .main__section:nth-child(3) .block-questions {
+  .main__section-answers .block-questions {
     margin-block-start: 30px;
   }
 
@@ -352,25 +344,11 @@ h4.section__title {
   }
 
   .footer {
-    margin-block-start: 50px;
-  }
-
-  .footer.decorated-zone::before {
-    right: 17px;
-    top: -2px;
-  }
-
-  .footer.decorated-zone::after {
-    top: 957px;
-  }
-
-  .block-answers {
-    margin-inline-start: -114px;
-    margin-inline-end: 5px;
+    margin-block-start: 26px;
   }
 
   .footer__title {
-    margin-top: 313px;
+    margin-top: 361px;
     margin-left: 4px;
   }
 }
@@ -378,26 +356,25 @@ h4.section__title {
 @media (min-width: 1024px) {
   .header__theme-menu {
     justify-self: center;
-    margin-top: 257px;
-
+    margin-top: 0px;
     margin-inline-start: 7px;
+    display: flex;
   }
   .header__theme-menu-list {
-    margin-top: -236px;
     margin-left: 19px;
     flex-direction: row;
     gap: 26px;
+    margin-block-end: 102px;
   }
 
   .header__title {
     margin-left: 0px;
-    margin-top: -89px;
   }
   .header__text {
     margin-inline-start: 513px;
     margin-inline-end: 20px;
-    margin-block-end: 140px;
-    margin-block-start: 114px;
+    margin-block-end: 35px;
+    margin-block-start: 117px;
   }
 
   .decorated-zone::after {
@@ -439,10 +416,6 @@ h4.section__title {
     margin-inline-end: 62px;
   }
 
-  .block-questions {
-    margin-left: -165px;
-  }
-
   .block-reasons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -469,17 +442,12 @@ h4.section__title {
     margin-inline-end: 7px;
   }
 
-  .footer.decorated-zone::before {
-    right: 20px;
-    top: -1px;
-  }
-
-  .footer.decorated-zone::after {
-    top: 702px;
+  .footer {
+    margin-top: 31px;
   }
 
   .footer__title {
-    margin-top: 56px;
+    margin-top: 95px;
     margin-left: 0px;
   }
 }
