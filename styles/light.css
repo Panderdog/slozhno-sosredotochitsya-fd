@@ -1,54 +1,55 @@
 :root.theme-light {
-  --page-bg: url(../images/cover-image-light.png);
-  --subtitle-color: #353430;
-  --title-color: #ffc2e6;
-  --accent-color: #ff8dcb;
-  --text-color: #353430;
-  --title-shadow-color: #ff8dcb;
-  --main-text-color: #353430;
-  --decorated-color: #353430;
-  --section-text-color: var(--main-text-color);
-  --button-color: var(--text-color);
-  --bg-color: #fff1f7;
-  --nav-color-hover: #32312d66;
-  --nav-color: #353430;
-  --nav-color-focus: #32312d66;
-  --link-focus: #353430;
-  --color-button-active: #353430;
-  --color-decor: #353430;
-  --main-title-color: #353430;
-  --display: none;
+  --bg-image-light: url(../images/cover-image-light.png);
+  --bg-color-light: #fff1f8;
+  --button-hover-color-light: rgba(50, 49, 45, 0.4);
+  --button-active-color-light: rgba(53, 52, 48, 1);
+  --accent-color-light: #FF8DCB;
+  --corner-color-light: #353430;
+  --title-color-light: #FFC2E6;
+  --text-description-color-light: #353430;
+  --text-color-light: #353430;
+  --section-heading-title-color-light: #353430;
+  --bg-image: var(--bg-image-light);
+  --bg-color: var(--bg-color-light);
+  --title-color: var(--title-color-light);
+  --accent-color: var(--accent-color-light);
+  --text-color: var(--text-color-light);
+  --text-description-color: var(--text-description-color-light);
+  --section-heading-title-color: var(--section-heading-title-color-light);
+  --button-hover-color: var(--button-hover-color-light);
+  --button-active-color: var(--button-active-color-light);
+  --corner-color: var(--corner-color-light);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --page-bg: url(../images/cover-image-light.png);
+    --bg-image-light: url(../images/cover-image-light.png);
+    --bg-color-light: #fff1f8;
+    --button-hover-color-light: rgba(50, 49, 45, 0.4);
+    --button-active-color-light: rgba(53, 52, 48, 1);
+    --accent-color-light: #FF8DCB;
+    --corner-color-light: #353430;
+    --title-color-light: #FFC2E6;
+    --text-description-color-light: #353430;
+    --text-color-light: #353430;
+    --section-heading-title-color-light: #353430;
+    --bg-image: var(--bg-image-light);
+    --bg-color: var(--bg-color-light);
+    --title-color: var(--title-color-light);
+    --accent-color: var(--accent-color-light);
+    --text-color: var(--text-color-light);
+    --text-description-color: var(--text-description-color-light);
+    --section-heading-title-color: var(--section-heading-title-color-light);
+    --button-hover-color: var(--button-hover-color-light);
+    --button-active-color: var(--button-active-color-light);
+    --corner-color: var(--corner-color-light);
+  }
 
-    --title-color: #ffc2e6;
-    --accent-color: #ff8dcb;
-    --text-color: #353430;
-    --title-shadow-color: #ff8dcb;
-    --main-text-color: #353430;
-    --decorated-color: #353430;
-    --section-text-color: var(--main-text-color);
-    --button-color: var(--text-color);
-    --bg-color: #fff1f7;
-    --nav-color-hover: #32312d66;
-    --nav-color: #353430;
-    --nav-color-focus: #32312d66;
-    --link-focus: #353430;
-    --color-button-active: #353430;
-    --color-decor: #353430;
-    --main-title-color: #353430;
-    --display: none;
+  .rec-marker {
+    display: none;
   }
 }
 
-@media (width >= 1024px) {
-  .title {
-    text-shadow: 4px 4px 0px var(--title-shadow-color);
-  }
-  .footer__text {
-    text-shadow: 2px 2px 0px var(--title-shadow-color);
-  }
+.theme-light .rec-marker {
+  display: none;
 }
